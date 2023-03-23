@@ -1,0 +1,27 @@
+.d{
+    -fx-background-color: transparent;
+    -fx-border-radius: 0;
+    -fx-background-radius: 0;
+}
+.d:hover{
+    -fx-border-color: #8f5600;
+    -fx-border-width: 0px 0px 3px 0px;
+    -fx-background-color: #dfdfdf;
+}
+.a{
+    -fx-background-color: transparent;
+    -fx-border-radius: 0;
+    -fx-background-radius: 0;
+}
+.a:hover{
+    -fx-border-color: #df0000;
+    -fx-border-width: 0px 0px 3px 0px;
+    -fx-background-color: #dfdfdf;
+}
+.h{
+    -fx-border-color: #00cc77;
+    -fx-border-width: 0px 0px 3px 0px;
+    -fx-background-color: #dfdfdf;
+    -fx-border-radius: 0;
+    -fx-background-radius: 0;
+}

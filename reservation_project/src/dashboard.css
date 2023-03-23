@@ -1,0 +1,43 @@
+.d{
+    -fx-border-color: #8f5600;
+    -fx-border-width: 0px 0px 3px 0px;
+    -fx-background-color: #dfdfdf;
+    -fx-border-radius: 0;
+    -fx-background-radius: 0;
+}
+.a{
+    -fx-background-color: transparent;
+    -fx-border-radius: 0;
+    -fx-background-radius: 0;
+}
+.a:hover{
+    -fx-border-color: #df0000;
+    -fx-border-width: 0px 0px 3px 0px;
+    -fx-background-color: #dfdfdf;
+}
+.h{
+    -fx-background-color: transparent;
+    -fx-border-radius: 0;
+    -fx-background-radius: 0;
+}
+.h:hover{
+    -fx-border-color: #00cc77;
+    -fx-border-width: 0px 0px 3px 0px;
+    -fx-background-color: #dfdfdf;
+}
+.rt{
+    -fx-background-color: rgb(210, 210, 210);
+}
+.pp{
+    -fx-background-color: rgb(210, 210, 210);
+}
+.done{
+    -fx-background-color: linear-gradient(to top, rgb(190, 190, 190), white);
+    -fx-border-color: transparent;
+    -fx-border-width: 2px 2px 2px 2px;
+}
+.done:hover{
+    -fx-background-color: linear-gradient(rgb(190, 190, 190), white);
+    -fx-border-color: #49ff52;
+    -fx-border-width: 2px 2px 2px 2px;
+}
