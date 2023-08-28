@@ -62,7 +62,7 @@ class TicTacToe():
 		#third column
 		elif (self.board[2] == winner and self.board[5] == winner and self.board[8] == winner):
 			self.won_by = winner
-		#top left to botttom right
+		#top left to bottom right
 		elif (self.board[0] == winner and self.board[4] == winner and self.board[8] == winner):
 			self.won_by = winner
 		#top right to bottom left
@@ -189,7 +189,7 @@ def check_big_win(winner):
 	#third column
 	elif (ult_board[2].won_by == winner and ult_board[5].won_by == winner and ult_board[8].won_by == winner):
 		return [True, winner]
-	#top left to botttom right
+	#top left to bottom right
 	elif (ult_board[0].won_by == winner and ult_board[4].won_by == winner and ult_board[8].won_by == winner):
 		return [True, winner]
 	#top right to bottom left
