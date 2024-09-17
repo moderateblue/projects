@@ -104,9 +104,9 @@ public class DashboardController implements Initializable {
         List<String> roomTypeList = new ArrayList<>();
         {
             try {
-                Scanner standardFile = new Scanner(new File("C:\\Users\\tianmx\\Desktop\\projects\\reservation\\standard.txt"));
-                Scanner deluxeFile = new Scanner(new File("C:\\Users\\tianmx\\Desktop\\projects\\reservation\\deluxe.txt"));
-                Scanner presidentialFile = new Scanner(new File("C:\\Users\\tianmx\\Desktop\\projects\\reservation\\presidential.txt"));
+                Scanner standardFile = new Scanner(new File("C:\\%dir%\\projects\\reservation\\standard.txt"));
+                Scanner deluxeFile = new Scanner(new File("C:\\%dir%\\projects\\reservation\\deluxe.txt"));
+                Scanner presidentialFile = new Scanner(new File("C:\\%dir%\\projects\\reservation\\presidential.txt"));
                 standardsLeft = standardFile.nextInt();
                 standardFile.close();
                 deluxeLeft = deluxeFile.nextInt();
