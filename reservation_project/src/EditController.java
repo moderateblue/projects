@@ -252,9 +252,9 @@ public class EditController implements Initializable {
                 @Override
                 public void handle(ActionEvent arg0) {
 
-                    try (Scanner standardFile = new Scanner(new File("C:\\Users\\tianmx\\Desktop\\projects\\reservation\\standard.txt"))) {
-                        Scanner deluxeFile = new Scanner(new File("C:\\Users\\tianmx\\Desktop\\projects\\reservation\\deluxe.txt"));
-                        Scanner presidentialFile = new Scanner(new File("C:\\Users\\tianmx\\Desktop\\projects\\reservation\\presidential.txt"));
+                    try (Scanner standardFile = new Scanner(new File("C:\\%dir%\\projects\\reservation\\standard.txt"))) {
+                        Scanner deluxeFile = new Scanner(new File("C:\\%dir%\\projects\\reservation\\deluxe.txt"));
+                        Scanner presidentialFile = new Scanner(new File("C:\\%dir%\\projects\\reservation\\presidential.txt"));
                         int standardsLeft = standardFile.nextInt();
                         standardFile.close();
                         int deluxeLeft = deluxeFile.nextInt();
@@ -437,7 +437,7 @@ public class EditController implements Initializable {
                             String roomType = res.getRmType();
                             switch(roomType) {
                                 case "Standard":
-                                    Scanner standardFile = new Scanner(new File("C:\\Users\\tianmx\\Desktop\\projects\\reservation\\standard.txt"));
+                                    Scanner standardFile = new Scanner(new File("C:\\%dir%\\projects\\reservation\\standard.txt"));
                                     int standardsLeft = standardFile.nextInt();
                                     standardFile.close();
                                     FileWriter standardtxt = new FileWriter("standard.txt");
@@ -446,7 +446,7 @@ public class EditController implements Initializable {
                                     standardtxt.close();
                                     break;
                                 case "Deluxe":
-                                    Scanner deluxeFile = new Scanner(new File("C:\\Users\\tianmx\\Desktop\\projects\\reservation\\deluxe.txt"));
+                                    Scanner deluxeFile = new Scanner(new File("C:\\%dir%\\projects\\reservation\\deluxe.txt"));
                                     int deluxeLeft = deluxeFile.nextInt();
                                     deluxeFile.close();
                                     FileWriter deluxetxt = new FileWriter("deluxe.txt");
@@ -455,7 +455,7 @@ public class EditController implements Initializable {
                                     deluxetxt.close();
                                     break;
                                 case "Presidential":
-                                    Scanner presidentialFile = new Scanner(new File("C:\\Users\\tianmx\\Desktop\\projects\\reservation\\presidential.txt"));
+                                    Scanner presidentialFile = new Scanner(new File("C:\\%dir%\\projects\\reservation\\presidential.txt"));
                                     int presidentialLeft = presidentialFile.nextInt();
                                     presidentialFile.close();
                                     FileWriter presidentialtxt = new FileWriter("presidential.txt");
